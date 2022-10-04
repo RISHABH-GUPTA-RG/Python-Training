@@ -1,0 +1,49 @@
+to install numpy
+it is already installed...🤣🤣🤣
+but
+.........
+if it saying error
+then 
+```
+pip uninstall numpy
+```
+and after that install numpy just a previous version
+
+ex
+
+numpy uninstalled version wa 1.19.4
+
+then you should install.
+
+```
+pip install numpy==1.19.3
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From OP
+
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+
+Becomes
+
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')

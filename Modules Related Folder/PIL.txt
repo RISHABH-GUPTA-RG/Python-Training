@@ -1,0 +1,6 @@
+to install PIL 
+
+code
+```
+pip install pillow
+```

@@ -1,0 +1,18 @@
+pyinstaller --onefile -w {filename}
+if its GUI
+
+
+
+IF its CLI
+
+then 
+pyinstaller --onefile  {filename}
+
+
+
+
+then delete spec and build folder
+inside dist folder remove the exe file from it and transfer it into the main folder
+delete dist folder
+make the compressed version of whole folder
+use nsis to make executable installer of the same
