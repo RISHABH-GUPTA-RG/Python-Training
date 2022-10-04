@@ -1,0 +1,4 @@
+First install the library py_compile
+
+How to use:
+>To use it just copy the path of file path with its name and extension and paste it in the input and the file will be compiled
